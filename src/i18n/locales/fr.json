@@ -1,0 +1,286 @@
+{
+  "brand": "Camping Hakkou",
+  "nav": {
+    "home": "Accueil",
+    "stay": "Sejour",
+    "activities": "Activites",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "book": "Reserver"
+  },
+  "home": {
+    "welcome": "Bienvenue a {{city}}",
+    "city": "Aoufous",
+    "headline": "Camping Hakkou",
+    "tagline": "Gite-Camping-Caravaning Hakkou",
+    "subtitle": "Un havre paisible entre Erfoud et Errachidia, au bord de la palmeraie, pour les caravanes, camping-cars, tentes et chambres d'hotes.",
+    "ctaBook": "Nous contacter",
+    "ctaRooms": "Voir les hebergements"
+  },
+  "about": {
+    "badge": "A propos de nous",
+    "title": "Un havre de paix en plein air a Aoufous",
+    "intro": "Gite-Camping-Caravaning Hakkou accueille les voyageurs dans un lieu paisible et reposant entre Erfoud et Errachidia, avec 2 chambres d'hotes, des emplacements pour caravanes et camping-cars, ainsi que des places pour tentes.",
+    "description": "Toujours l'accueil, l'hospitalite et la convivialite sont les valeurs de ce lieu. Le gerant tres amical peut faire decouvrir la palmeraie et la kasbah, un the est offert chaque matin, et des repas partages animent regulierement le camp.",
+    "actions": {
+      "call": "Appeler maintenant",
+      "whatsapp": "WhatsApp",
+      "contact": "Nous ecrire"
+    },
+    "highlights": [
+      "The offert chaque matin",
+      "Couscous collectif le vendredi",
+      "Harira et animation concert le samedi",
+      "Restauration sur commande"
+    ]
+  },
+  "stayPage": {
+    "title": "Hebergements et emplacements",
+    "intro": "Camping Hakkou accueille les voyageurs en camping-car, caravane, tente ou chambre d'hotes, dans une ambiance conviviale et reposante.",
+    "viewPhotos": "Voir les photos",
+    "book": "Reserver par telephone",
+    "items": {
+      "guestRooms": {
+        "title": "2 chambres d'hotes",
+        "desc": "Deux chambres simples et calmes pour les voyageurs qui souhaitent profiter du camp avec plus de confort et un accueil familial."
+      },
+      "caravanSpaces": {
+        "title": "Emplacements plein air",
+        "desc": "Des espaces accueillants pour caravanes, camping-cars et tentes, parfaits pour une halte paisible entre Erfoud et Errachidia, pres de la palmeraie."
+      }
+    }
+  },
+  "stayHome": {
+    "heading": "Hebergements",
+    "sub": "Chambres d'hotes et emplacements plein air dans un cadre simple, chaleureux et reposant.",
+    "viewMore": "Tout voir"
+  },
+  "importantInfo": {
+    "heading": "Informations importantes",
+    "intro": "Des services utiles disponibles sur place pour un sejour plus confortable.",
+    "items": [
+      {
+        "icon": "📶",
+        "title": "Wi-Fi disponible",
+        "body": "Les voyageurs peuvent profiter du Wi-Fi pendant leur sejour au camp."
+      },
+      {
+        "icon": "🔌",
+        "title": "Electricite",
+        "body": "Un acces a l'electricite est disponible pour les sejours et les emplacements plein air."
+      },
+      {
+        "icon": "🚿",
+        "title": "Salles de bains",
+        "body": "Des salles de bains sont disponibles sur place pour les voyageurs du camp."
+      },
+      {
+        "icon": "💧",
+        "title": "Acces a l'eau",
+        "body": "L'eau est disponible sur place pour les besoins quotidiens et le confort au camp."
+      }
+    ]
+  },
+  "activitiesPage": {
+    "badge": "Page activites",
+    "title": "Experiences, repas et departs vers le desert depuis un seul lieu",
+    "intro": "Camping Hakkou reunit visites locales, repas partages, transferts et excursions dans un cadre simple, convivial et facile a organiser.",
+    "facts": [
+      "Visites guidees de la palmeraie et de la kasbah",
+      "Moments restaurant et repas partages pendant la semaine",
+      "Point de depart pratique pour Merzouga"
+    ],
+    "servicesTitle": "Ce que vous pouvez organiser depuis ici",
+    "restaurantTitle": "Une restauration dans un esprit de partage",
+    "excursionsTitle": "Une base paisible avant Merzouga",
+    "infoTitle": "Les essentiels utiles sur place"
+  },
+  "reviews": {
+    "heading": "L'esprit du lieu",
+    "sub": "Quelques avis recents des voyageurs de Camping Hakkou.",
+    "items": [
+      {
+        "name": "FamilyJagers",
+        "date": "29/04/2026",
+        "text": "Quelle belle nuit passee a Hakkou ! Nous avons joue de la musique ensemble, partage des experiences de vie, recu de bons conseils et profite d'un tres bel accueil avec the et cacahuetes. Nous avons commande un tajine pour 4, delicieux. Nous recommandons vraiment cet endroit, n'hesitez pas a y passer. Amities, Pieter, Ellen, Noah et William."
+      },
+      {
+        "name": "riri40",
+        "date": "17/04/2026",
+        "text": "L'accueil, l'hospitalite et la convivialite font tout le charme du lieu. Le the du matin est un vrai plaisir."
+      },
+      {
+        "name": "Mac22",
+        "date": "14/04/2026",
+        "text": "Un accueil vrai et authentique. Merci Amad et toute ton equipe. Jerome (bebert le dromadaire !)."
+      },
+      {
+        "name": "akwein",
+        "date": "13/04/2026",
+        "text": "Ein sehr schoner Campingplatz mit netten Angestellten."
+      },
+      {
+        "name": "eric87",
+        "date": "06/04/2026",
+        "text": "Une halte a ne pas rater avant Merzouga. Ahmad et sa famille font tout pour vous : nuitee, repas, visites a un prix convenable, pain cuit au feu de bois, une belle rencontre. Nous reviendrons surement."
+      }
+    ]
+  },
+  "gallery": {
+    "heading": "Galerie",
+    "sub": "Quelques vues du camp, des espaces exterieurs et de l'ambiance sur place.",
+    "alt": "Image de la galerie {{n}}",
+    "prev": "Precedente",
+    "next": "Suivante",
+    "goto": "Aller a l'image {{n}}",
+    "counter": "{{current}} / {{total}}",
+    "close": "Fermer"
+  },
+  "location": {
+    "heading": "Entre palmeraie et route du desert",
+    "desc": "Hakkou Aoufous Campsite se situe entre Erfoud et Errachidia, sur la route de Zrigate, avec un acces facile et une atmosphere paisible proche de la palmeraie.",
+    "points": [
+      "Gerant tres accueillant pouvant vous faire visiter la palmeraie et la kasbah",
+      "Base pratique pour une excursion vers Merzouga",
+      "Acces simple pour camping-cars, caravanes, tentes et sejours en chambre"
+    ],
+    "mapTitle": "Carte Camping Hakkou"
+  },
+  "haven": {
+    "heading": "Activites et services",
+    "intro": "Un lieu simple et vivant ou l'on vient pour se reposer, partager un repas, organiser une excursion et profiter d'un accueil chaleureux en plein air.",
+    "cards": [
+      {
+        "icon": "🌴",
+        "title": "Visite guidee",
+        "body": "Le gerant peut vous accompagner pour decouvrir la palmeraie et la kasbah dans une ambiance conviviale et locale.",
+        "large": true
+      },
+      {
+        "icon": "🧺",
+        "title": "Picknick",
+        "body": "Profitez d'un moment detendu en plein air avec des pauses gourmandes dans un cadre calme et reposant."
+      },
+      {
+        "icon": "✈️",
+        "title": "Transport aeroport",
+        "body": "Organisation de transferts aeroport sur demande pour arriver au camp ou repartir sereinement."
+      }
+    ]
+  },
+  "excursions": {
+    "heading": "Excursions",
+    "title": "Voyage vers Merzouga",
+    "description": "Camping Hakkou constitue une etape reposante avant de poursuivre vers Merzouga. Le camp peut vous aider a organiser cette excursion et a preparer un depart confortable vers les dunes et les paysages du desert.",
+    "cta": "Planifier l'excursion"
+  },
+  "restaurant": {
+    "heading": "Restaurant",
+    "title": "Repas partages et restauration sur commande",
+    "description": "Camping Hakkou propose des moments gourmands simples et conviviaux, en accord avec l'esprit du lieu. Les voyageurs peuvent profiter du couscous collectif du vendredi, de la Harira du samedi et d'une restauration sur commande selon leurs besoins.",
+    "highlights": [
+      "Couscous collectif le vendredi",
+      "Harira et ambiance concert le samedi",
+      "Restauration disponible sur commande"
+    ],
+    "cta": "Demander les repas"
+  },
+  "contact": {
+    "heading": "Contactez Camping Hakkou",
+    "sub": "Pour une reservation, un transfert, une excursion ou une demande speciale, nous sommes joignables directement.",
+    "quickTitle": "Reservez directement avec le camp",
+    "quickText": "Le moyen le plus simple pour organiser votre sejour est d'appeler ou d'envoyer un message WhatsApp. Nous pouvons vous aider pour les chambres, les emplacements, les transferts et les excursions.",
+    "actions": {
+      "call": "Appeler Camping Hakkou",
+      "whatsapp": "Envoyer WhatsApp",
+      "location": "Ouvrir la localisation"
+    },
+    "detailsTitle": "Avant de nous contacter",
+    "details": [
+      "Precisez si vous souhaitez une chambre d'hotes ou un emplacement plein air.",
+      "Indiquez votre date d'arrivee et le nombre de voyageurs.",
+      "Demandez directement si vous avez besoin d'un transfert aeroport ou d'une excursion vers Merzouga."
+    ],
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "send": "Envoyer",
+      "sending": "Envoi...",
+      "thanks": "Merci. Nous vous repondrons rapidement.",
+      "error": "Une erreur est survenue. Veuillez reessayer.",
+      "phoneOpt": "Numero de telephone (facultatif)",
+      "phoneHint": "Optionnel si vous preferez etre rappelle.",
+      "phoneTitle": "Entrez un numero de telephone valide."
+    },
+    "direct": {
+      "heading": "Contacts directs",
+      "phone": "Telephone : 06 55 23 75 54",
+      "email": "Email : contact@camphakkou.com",
+      "address": "Adresse : BP10, Route de Zrigate, Hakkou, Aoufous 52053"
+    },
+    "follow": "Suivre"
+  },
+  "bookingModal": {
+    "title": "Demande de reservation",
+    "intro": "Renseignez les details de votre sejour et votre application mail s'ouvrira avec un email pre-rempli.",
+    "fullName": "Nom complet",
+    "checkin": "Date d'arrivee",
+    "checkout": "Date de depart",
+    "specialRequest": "Demande speciale (facultatif)",
+    "specialPlaceholder": "Transfert, preference de chambre, heure d'arrivee ou toute note utile.",
+    "cancel": "Annuler",
+    "submit": "Ouvrir l'application mail",
+    "invalidDates": "Veuillez choisir une date de depart apres la date d'arrivee."
+  },
+  "footer": {
+    "rights": "Tous droits reserves.",
+    "top": "Haut de page",
+    "stay": "Sejour",
+    "activities": "Activites",
+    "contact": "Contact",
+    "conditions": "Informations"
+  },
+  "galleryPage": {
+    "heading": "Galerie",
+    "sub": "Photos du camp et de son cadre naturel.",
+    "close": "Fermer",
+    "next": "Suivante",
+    "prev": "Precedente",
+    "counter": "{{current}} / {{total}}",
+    "alt": "Image de la galerie {{n}}"
+  },
+  "legal": {
+    "title": "Informations pratiques",
+    "updated": "18 mai 2026",
+    "sections": [
+      {
+        "h": "Presentation",
+        "p": "Gite-Camping-Caravaning Hakkou est un havre de paix en plein air avec 2 chambres d'hotes, des emplacements pour caravanes et camping-cars ainsi que des espaces pour tentes."
+      },
+      {
+        "h": "Ambiance et accueil",
+        "p": "L'accueil, l'hospitalite et la convivialite sont au coeur du lieu. Un the amical est offert chaque matin, avec des moments de partage reguliers autour des repas et animations."
+      },
+      {
+        "h": "Restauration et animations",
+        "p": "Couscous collectif le vendredi, Harira le samedi avec animation concert, et possibilite de restauration sur commande selon les besoins des voyageurs."
+      },
+      {
+        "h": "Activites et transferts",
+        "p": "Le camp propose des visites guidees, des picknicks, des transferts aeroport et peut aider a organiser une excursion vers Merzouga."
+      }
+    ],
+    "company": {
+      "title": "Coordonnees",
+      "lines": [
+        "Nom : Gite-Camping-Caravaning Hakkou",
+        "Adresse : BP10, Route de Zrigate, Hakkou, Aoufous 52053",
+        "Telephone : 06 55 23 75 54",
+        "Localisation : MQFX+8C Aoufous",
+        "Zone : Entre Erfoud et Errachidia",
+        "Derniere mise a jour : 18 mai 2026"
+      ]
+    }
+  }
+}
