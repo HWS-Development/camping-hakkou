@@ -67,6 +67,7 @@ export default function ActivitiesPage() {
                 <img
                   src="/images/tout/705691723.jpg"
                   alt={featured?.title}
+                  loading="lazy"
                   className="h-full min-h-[320px] w-full object-cover"
                 />
                 <div className="p-7 sm:p-8">
@@ -126,6 +127,7 @@ export default function ActivitiesPage() {
             <img
               src="/images/tout/restaurant (1).jpg"
               alt={t('restaurant.title')}
+              loading="lazy"
               className="h-[420px] w-full object-cover"
             />
           </article>
@@ -152,6 +154,7 @@ export default function ActivitiesPage() {
               <img
                 src="/images/tout/717772676.jpg"
                 alt={t('excursions.title')}
+                loading="lazy"
                 className="h-[340px] w-full object-cover"
               />
             </div>

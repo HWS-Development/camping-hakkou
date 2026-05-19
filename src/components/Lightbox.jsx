@@ -35,6 +35,7 @@ export default function Lightbox({ open, images, startIndex = 0, title = '', onC
         <img
           src={images[index]}
           alt={t('galleryPage.alt', { n: index + 1 })}
+          loading="lazy"
           className="w-full max-h-[80vh] object-contain rounded-xl shadow-soft bg-black"
         />
 

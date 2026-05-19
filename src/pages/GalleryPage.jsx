@@ -156,6 +156,7 @@ export default function GalleryPage() {
             <img
               src={images[index]}
               alt={t('galleryPage.alt', { n: index + 1 })}
+              loading="lazy"
               className="w-full max-h-[82vh] rounded-[28px] bg-black object-contain shadow-soft"
             />
 

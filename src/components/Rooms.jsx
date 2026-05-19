@@ -25,7 +25,7 @@ export default function Rooms({ onOpenBooking }) {
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {featured.map((stay) => (
             <article key={stay.key} className="rounded-2xl overflow-hidden bg-white shadow-soft border border-black/5">
-              <img className="h-48 w-full object-cover" src={stay.img} alt={t(`stayPage.items.${stay.key}.title`)} />
+              <img className="h-48 w-full object-cover" src={stay.img} alt={t(`stayPage.items.${stay.key}.title`)} loading="lazy" />
               <div className="p-5">
                 <h3 className="text-xl font-semibold">{t(`stayPage.items.${stay.key}.title`)}</h3>
                 <p className="mt-1 text-sm text-brand-black/70">{t(`stayPage.items.${stay.key}.desc`)}</p>

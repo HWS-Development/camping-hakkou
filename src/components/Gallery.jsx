@@ -172,6 +172,7 @@ export default function Gallery() {
             <img
               src={urls[idx]}
               alt={t('gallery.alt', { n: idx + 1, defaultValue: `Gallery image ${idx + 1}` })}
+              loading="lazy"
               className="w-full max-h-[82vh] rounded-[28px] bg-black object-contain shadow-soft"
             />
 
