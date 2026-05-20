@@ -28,7 +28,7 @@ export default function Navbar({ onOpenBooking }) {
         <div className="rounded-b-2xl shadow-soft glass text-white">
           <nav className="flex items-center justify-between p-4">
             <Link className="hover:text-brand-orange flex items-center gap-4" to="/">
-              <img src="/images/tout/Logo-Fin.png" alt="Camping Hakkou Logo" loading="lazy" className="h-16 w-16 rounded-full object-cover" />
+              <img src="/images/tout/camp-hakkou-logo.svg" alt="Camping Hakkou Logo" loading="lazy" className="h-16 w-16 object-contain" />
               <span className="text-lg sm:text-xl font-semibold tracking-wide">Camping Hakkou</span>
             </Link>
 

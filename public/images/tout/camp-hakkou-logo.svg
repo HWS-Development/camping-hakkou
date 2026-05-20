@@ -1,0 +1,53 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Camping Hakkou logo</title>
+  <desc id="logoDesc">A camping-inspired logo with mountains, a tent, pine trees, and a sun.</desc>
+  <defs>
+    <linearGradient id="sky" x1="256" y1="44" x2="256" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5E6B2"/>
+      <stop offset="1" stop-color="#D7E7C2"/>
+    </linearGradient>
+    <linearGradient id="mountainBack" x1="148" y1="126" x2="148" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6F8D7A"/>
+      <stop offset="1" stop-color="#496454"/>
+    </linearGradient>
+    <linearGradient id="mountainFront" x1="338" y1="118" x2="338" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F5D50"/>
+      <stop offset="1" stop-color="#16332B"/>
+    </linearGradient>
+    <linearGradient id="tentLeft" x1="178" y1="198" x2="256" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E49A41"/>
+      <stop offset="1" stop-color="#A95E21"/>
+    </linearGradient>
+    <linearGradient id="tentRight" x1="256" y1="198" x2="334" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D77B28"/>
+      <stop offset="1" stop-color="#7F4318"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="232" fill="url(#sky)"/>
+  <circle cx="256" cy="256" r="232" stroke="#16332B" stroke-width="16"/>
+  <circle cx="172" cy="144" r="34" fill="#F5B642"/>
+  <path d="M55 336C104 265 140 202 190 126L278 336H55Z" fill="url(#mountainBack)"/>
+  <path d="M192 336C248 254 287 185 359 112L457 336H192Z" fill="url(#mountainFront)"/>
+  <path d="M222 188L247 232L210 232L222 188Z" fill="#F3F0E5" fill-opacity="0.92"/>
+  <path d="M340 178L366 224L327 224L340 178Z" fill="#F3F0E5" fill-opacity="0.9"/>
+  <path d="M104 360C139 347 180 341 224 341C315 341 398 365 450 404V432H68V392C77 380 89 369 104 360Z" fill="#244739"/>
+  <path d="M256 186L347 364H165L256 186Z" fill="url(#tentLeft)"/>
+  <path d="M256 186L347 364H256V186Z" fill="url(#tentRight)"/>
+  <path d="M256 186L165 364" stroke="#FFE3B2" stroke-width="7" stroke-linecap="round"/>
+  <path d="M256 186L347 364" stroke="#6A3313" stroke-width="7" stroke-linecap="round"/>
+  <path d="M256 186V364" stroke="#5A2D12" stroke-width="7" stroke-linecap="round"/>
+  <path d="M225 364C225 339 239 319 256 319C273 319 287 339 287 364H225Z" fill="#2A2117"/>
+  <path d="M132 354L157 306L182 354H132Z" fill="#16332B"/>
+  <rect x="153" y="354" width="8" height="28" rx="4" fill="#6B4122"/>
+  <path d="M106 374L130 328L154 374H106Z" fill="#244739"/>
+  <rect x="126" y="374" width="8" height="24" rx="4" fill="#6B4122"/>
+  <path d="M348 354L373 306L398 354H348Z" fill="#16332B"/>
+  <rect x="369" y="354" width="8" height="28" rx="4" fill="#6B4122"/>
+  <path d="M372 376L398 325L424 376H372Z" fill="#244739"/>
+  <rect x="394" y="376" width="8" height="24" rx="4" fill="#6B4122"/>
+  <path d="M256 404C268 404 278 394 278 382C278 370 268 360 256 360C244 360 234 370 234 382C234 394 244 404 256 404Z" fill="#F0A43C"/>
+  <path d="M240 414C242 401 248 394 256 394C264 394 270 401 272 414" stroke="#F6D49B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M186 444H326" stroke="#16332B" stroke-width="16" stroke-linecap="round"/>
+  <path d="M172 468C195 448 224 438 256 438C288 438 317 448 340 468" stroke="#16332B" stroke-width="10" stroke-linecap="round"/>
+  <text x="256" y="462" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="3" fill="#16332B">HAKKOU</text>
+</svg>
