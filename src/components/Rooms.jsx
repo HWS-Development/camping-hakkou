@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { getCover } from '../data/roomImages'
 
 export default function Rooms({ onOpenBooking }) {
   const { t } = useTranslation()
@@ -6,11 +7,11 @@ export default function Rooms({ onOpenBooking }) {
   const featured = [
     {
       key: 'guestRooms',
-      img: '/images/tout/705691681.jpg'
+      img: getCover('room')
     },
     {
       key: 'caravanSpaces',
-      img: '/images/tout/705691723.jpg'
+      img: getCover('camping')
     }
   ]
 

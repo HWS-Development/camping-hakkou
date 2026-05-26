@@ -1,22 +1,11 @@
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
+import { getCampingImages } from '../data/roomImages'
 
 export default function Hero({ onOpenBooking }) {
   const { t } = useTranslation()
 
-  const files = useMemo(
-    () => [
-      '717772676.jpg',
-      '5f76a369-3890-4127-99d9-c195f3b29a8b.jpg',
-      '7f3300d4-6cde-4c08-838e-b63b7aa12aa4.jpg',
-    ],
-    []
-  )
-
-  const slides = useMemo(
-    () => files.map((file) => `${process.env.PUBLIC_URL}/images/hero/${file}`),
-    [files]
-  )
+  const slides = useMemo(() => getCampingImages().slice(17, 20), [])
 
   const locationPoints = t('location.points', { returnObjects: true }) || []
   const aboutHighlights = t('about.highlights', { returnObjects: true }) || []
@@ -90,8 +79,7 @@ export default function Hero({ onOpenBooking }) {
             style={{ transition: 'opacity 0s' }}
             aria-hidden={slideIndex !== index}
             draggable="false"
-            loading={slideIndex === 0 ? 'eager' : 'lazy'}
-            fetchpriority={slideIndex === 0 ? 'high' : undefined}
+            loading="lazy"
             decoding="async"
           />
         ))}

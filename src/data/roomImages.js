@@ -1,58 +1,42 @@
-// Build URLs for images stored in public/images/<folder>/<file>
-const pub = (path) => `${process.env.PUBLIC_URL}${path}`
+const imagePath = (folder, file) => `/images/${folder}/${encodeURIComponent(file)}`
 
-/**
- * Map room keys -> folder name in /public/images and file list.
- * Keep this list in sync with your /public/images folders.
- */
-export const ROOM_IMAGES = {
-  double: {
-    folder: 'chambreStandard',
-    files: [
-      
-      'Screenshot 2025-09-15 160254.png',
-      'Screenshot 2025-09-15 160330.png',
-      'Screenshot 2025-09-15 160346.png',
-     
-    ]
-  },
-  familySuite: {
-    folder: 'suiteFamill', // <- folder name exactly as in your tree
-    files: [
-      'Screenshot 2025-09-15 160955.png',
-      'Screenshot 2025-09-15 160926.png',
-      'Screenshot 2025-09-15 160942.png',
-      
-   
-    ]
-  },
-  juniorSuite: {
-    folder: 'suiteJunior',
-    files: [
-      '43bc7c69-8a3e-4307-bdf3-3600de8d6def.jpg',
-      '107da34b-e0b8-430d-9bb6-1692997692e0.jpg',
-      '06243471-50cb-4a8e-9458-30dfa28c0d53.jpg',
-    ]
-  },
-  triplePool: {
-    folder: 'tripleRoom',
-    files: [
-    
-      'Screenshot 2025-09-15 161322.png',
-      'Screenshot 2025-09-15 161339.png',
-      'Screenshot 2025-09-15 161354.png',
-    
-    ]
-  }
+const roomFiles = [
+  '_DSC3454-HDR.jpg',
+  '_DSC3459-HDR.jpg',
+  '_DSC3464-HDR.jpg'
+]
+
+const campingFiles = [
+  '_DSC3364-HDR-Modifier.jpg',
+  '_DSC3369-HDR-Modifier.jpg',
+  '_DSC3378-HDR-Modifier.jpg',
+  '_DSC3379-HDR.jpg',
+  '_DSC3384-HDR.jpg',
+  '_DSC3389-HDR.jpg',
+  '_DSC3394-HDR-Modifier.jpg',
+  '_DSC3394-HDR.jpg',
+  '_DSC3399-HDR.jpg',
+  '_DSC3404-HDR.jpg',
+  '_DSC3409-HDR.jpg',
+  '_DSC3414-HDR.jpg',
+  '_DSC3423-HDR.jpg',
+  '_DSC3424-HDR.jpg',
+  '_DSC3429-HDR.jpg',
+  '_DSC3434-HDR.jpg',
+  '_DSC3439-HDR.jpg',
+  '_DSC3444-HDR.jpg',
+  '_DSC3449-HDR.jpg',
+  '_DSC3469-HDR.jpg'
+]
+
+export const getCampingImages = () => campingFiles.map((file) => imagePath('camping', file))
+
+export const getRoomImages = (type = 'room') => {
+  if (type === 'camping') return getCampingImages()
+  return roomFiles.map((file) => imagePath('room', file))
 }
 
-export const getRoomImages = (key) => {
-  const entry = ROOM_IMAGES[key]
-  if (!entry) return []
-  return entry.files.map((f) => pub(`/images/${entry.folder}/${f}`))
-}
-
-export const getCover = (key) => {
-  const imgs = getRoomImages(key)
-  return imgs[0] || pub('/images/placeholder.jpg')
+export const getCover = (type = 'room') => {
+  const images = getRoomImages(type)
+  return images[0] || '/images/placeholder.jpg'
 }

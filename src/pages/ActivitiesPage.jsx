@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { getCampingImages } from '../data/roomImages'
 
 export default function ActivitiesPage() {
   const { t } = useTranslation()
@@ -9,6 +10,7 @@ export default function ActivitiesPage() {
 
   const featured = activities.find((item) => item.large) || activities[0]
   const compact = activities.filter((item) => item !== featured)
+  const campingImages = getCampingImages()
 
   return (
     <div className="bg-white pt-28">
@@ -65,7 +67,7 @@ export default function ActivitiesPage() {
             <article className="overflow-hidden rounded-[30px] border border-black/10 bg-white shadow-soft">
               <div className="grid gap-0 md:grid-cols-[0.95fr_1.05fr]">
                 <img
-                  src="/images/tout/705691723.jpg"
+                  src={campingImages[4]}
                   alt={featured?.title}
                   loading="lazy"
                   className="h-full min-h-[320px] w-full object-cover"
@@ -125,7 +127,7 @@ export default function ActivitiesPage() {
 
           <article className="overflow-hidden rounded-[30px] border border-black/10 bg-white shadow-soft">
             <img
-              src="/images/tout/restaurant (1).jpg"
+              src={campingImages[11]}
               alt={t('restaurant.title')}
               loading="lazy"
               className="h-[420px] w-full object-cover"
@@ -152,7 +154,7 @@ export default function ActivitiesPage() {
 
             <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/10">
               <img
-                src="/images/tout/717772676.jpg"
+                src={campingImages[17]}
                 alt={t('excursions.title')}
                 loading="lazy"
                 className="h-[340px] w-full object-cover"

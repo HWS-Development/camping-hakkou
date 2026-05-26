@@ -4,8 +4,8 @@ import Lightbox from '../components/Lightbox'
 import { getCover, getRoomImages } from '../data/roomImages'
 
 const STAY_META = [
-  { key: 'guestRooms', imageKey: 'double' },
-  { key: 'caravanSpaces', imageKey: 'familySuite' }
+  { key: 'guestRooms', imageType: 'room' },
+  { key: 'caravanSpaces', imageType: 'camping' }
 ]
 
 export default function RoomsPage({ onOpenBooking }) {
@@ -20,13 +20,13 @@ export default function RoomsPage({ onOpenBooking }) {
       ...item,
       title: t(`stayPage.items.${item.key}.title`),
       desc: t(`stayPage.items.${item.key}.desc`),
-      cover: getCover(item.imageKey)
+      cover: getCover(item.imageType)
     }))
   }, [t])
 
   const openLightbox = (key, startIndex = 0, title = '') => {
-    const imageKey = STAY_META.find((item) => item.key === key)?.imageKey || 'double'
-    const images = getRoomImages(imageKey)
+    const imageType = STAY_META.find((item) => item.key === key)?.imageType || 'room'
+    const images = imageType === 'camping' ? getRoomImages('camping') : getRoomImages()
     if (!images.length) return
     setLbImages(images)
     setLbStart(startIndex)

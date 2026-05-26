@@ -1,8 +1,10 @@
 import { useTranslation } from 'react-i18next'
+import { getCampingImages } from '../data/roomImages'
 
 export default function Restaurant() {
   const { t } = useTranslation()
   const highlights = t('restaurant.highlights', { returnObjects: true }) || []
+  const campingImages = getCampingImages()
 
   return (
     <section id="restaurant" className="py-16 bg-brand-desert/40">
@@ -10,7 +12,7 @@ export default function Restaurant() {
         <div className="grid gap-8 lg:grid-cols-[1fr_1.05fr] lg:items-center">
           <div className="order-2 lg:order-1 overflow-hidden rounded-[28px] border border-black/10 bg-white shadow-soft">
             <img
-              src="/images/tout/restaurant (1).jpg"
+              src={campingImages[11]}
               alt={t('restaurant.title')}
               className="h-[360px] w-full object-cover"
               loading="lazy"

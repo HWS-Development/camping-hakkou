@@ -36,7 +36,7 @@ export default function Contact() {
                   {t('contact.actions.whatsapp')}
                 </a>
                 <a
-                  href="https://www.google.com/maps?q=MQFX%2B8C%20Aoufous"
+                  href="https://maps.app.goo.gl/UGTqfq66DACT31jb7"
                   target="_blank"
                   rel="noreferrer"
                   className="sm:col-span-2 inline-flex items-center justify-center rounded-xl border border-black/10 px-5 py-3 font-semibold hover:border-black/20"

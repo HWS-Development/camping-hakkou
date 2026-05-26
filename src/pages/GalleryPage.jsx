@@ -1,42 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { getCampingImages } from '../data/roomImages'
 
 export default function GalleryPage() {
   const { t } = useTranslation()
 
-  const files = useMemo(
-    () => [
-      '0aae7b19-7564-4a0b-8951-69f61f112923.jpg',
-      '1d5c777b-64a8-4b8e-a0df-7db0639bdc11.jpg',
-      'Screenshot 2025-09-15 160955.png',
-      'Screenshot 2025-09-24 164429.png',
-      'Screenshot 2025-09-24 164537.png',
-      '94c414dd-2859-4cd6-b3d6-cff950e8d91a.jpg',
-      'Screenshot 2025-09-24 164510.png',
-      '2025-06-11 (21).jpg',
-      'Screenshot 2025-09-15 160254.png',
-      '705690381.jpg',
-      'Screenshot 2025-09-15 160942.png',
-      '7535c6be-f515-4a02-9b19-111ca6985f55.jpg',
-      '2025-06-12.jpg',
-      'a3ef54e3-7d5e-45ba-90d6-35e1c373489a.jpg',
-      'Screenshot 2025-09-24 164306.png',
-      'Screenshot 2025-09-24 164450.png',
-      'Screenshot 2025-09-24 171158.png',
-      'Screenshot 2025-09-24 164100.png',
-      'Screenshot 2025-09-24 164129.png',
-      'Screenshot 2025-09-24 164153.png',
-      'Screenshot 2025-09-24 164230.png',
-      'Screenshot 2025-09-24 164554.png',
-      'Screenshot 2025-09-24 164343.png'
-    ],
-    []
-  )
-
-  const images = useMemo(
-    () => files.map((file) => `/images/tout/${file}`),
-    [files]
-  )
+  const images = useMemo(() => getCampingImages(), [])
 
   const [open, setOpen] = useState(false)
   const [index, setIndex] = useState(0)

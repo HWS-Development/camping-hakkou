@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next'
+import { getCampingImages } from '../data/roomImages'
 
 export default function Excursions() {
   const { t } = useTranslation()
+  const campingImages = getCampingImages()
 
   return (
     <section id="excursions" className="py-16">
@@ -26,7 +28,7 @@ export default function Excursions() {
 
           <div className="overflow-hidden rounded-[28px] border border-black/10 bg-white shadow-soft">
             <img
-              src="/images/tout/717772676.jpg"
+              src={campingImages[17]}
               alt={t('excursions.title')}
               className="h-[360px] w-full object-cover"
               loading="lazy"
